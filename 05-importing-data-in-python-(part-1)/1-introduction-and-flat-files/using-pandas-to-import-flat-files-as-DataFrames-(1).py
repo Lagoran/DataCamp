@@ -15,10 +15,10 @@ the file object.
 -In a print() call, view the head of the DataFrame.
 '''
 # Import pandas as pd
+file = '../_datasets/titanic.csv'
 import pandas as pd
 
 # Assign the filename: file
-file = '../_datasets/titanic.csv'
 
 # Read the file into a DataFrame: df
 df = pd.read_csv(file)
